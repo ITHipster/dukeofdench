@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+#outer 		{	width:960px	;	margin:0	auto;	background-color:#FFF	}
+#wrapper	{	width:900px;	margin:0	auto;	background-color:#FFF ; 	}
+
+#logo {	margin:30px 0	;	float:left ;	}
+
+#cotact {	float:right ;	padding-top : 50px}
+#cotact ul li { display: inline	;	}
+
+#follow {	float:right ;	padding-top : 70px}
+
+#navig 	{	clear:both	;	}
+#navig	{	border-top:2px	#000 solid; border-bottom:2px #000 solid; 	
+		margin:20px	0;	padding:10px 0	; }
+#navig ul li {font-family:"Arial Rounded MT Bold" ; font-size:24px ; display: inline	;	}
+#navig ul li a	{	padding:0 20px;	}
+
+#banner {	clear:both	; margin-bottom:30px;	}
+
+#content	{	width:650px	;	float:left	;	}
+
+#lineup	{	width:	200px	;	}
+
+#content-full	{ width:900px ;	}
+
+#rightside	{	width:200px	;	float:right;	}
+
+#footer	{	clear:both	; margin:20px 0;	border-top:1px #000 solid;	padding-bottom:20px	;	}
+
+#clear-float 	{	clear:both	;	}
+
+#lads-left	{	padding:10px 10px	;	float:left ;	}
+
+#lads-right	{	padding:10px 10px ;	float:right ;	}
+
+
+/*Standard Classes */
+
+.align-left		{	width:150px	; 	float:left ;	text-align:left	;	}
+
+.align-right	{	width:150px	; 	float:right ;	text-align:right	;	}
+
+.align-left-400		{	width:400px	; 	float:left ;	text-align:left	;	padding :10px	;		}
+
+.align-right-400	{	width:400px	; 	float:right ;	text-align:right ; padding :10px	;		}
+
+
+/* images */
+
+.image-frame	{	width:150px	; padding:10px;	border:1px	#000 solid;	margin:10px	;	}
+.image-frame-normal	{	 padding:10px;	border:1px	#000 solid;	margin:10px	;	}
+.image-frame-200	{	width:200px	; padding:10px;	border:1px	#000 solid;	margin:10px	;	}
+
+.textboxframe-250-right	{	width:150px	; 	float:right ;	text-align:right	;	padding:10px;	border:1px	#000 solid;	margin:10px	;	}
+
+
+
+/*  Content text   */
+
+p		{font-family:"Arial Rounded MT Bold"  ; color: #000;	font-size:14px; line-height:150%
+		margin :15px	0;	}	
+p .left		{}
+p .right	{}
+
+a	{	}
+a:link	{ color: #000	}
+a:visited {color:#000	}
+a:active	{color:#F39	}
+a:focus	{color:#F39	}
+a:hover	{color:#F39}
+
+
+/* class styles */
+
+.centre-text {text-align:center ;	}
+.right-text	{text-align:right	;	}
